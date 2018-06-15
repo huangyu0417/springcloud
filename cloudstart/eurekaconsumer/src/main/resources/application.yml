@@ -1,0 +1,12 @@
+server:
+  port: 3333
+
+spring:
+  application:
+    name: consumer-main
+
+eureka:
+  client:
+    register-with-eureka: false
+    serviceUrl:
+          defaultZone: http://localhost:1111/eureka/
